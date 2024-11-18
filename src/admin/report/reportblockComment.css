@@ -1,0 +1,10 @@
+.report-block-comment{
+    font-family: 'Inter', 'Kanit', sans-serif;
+    border: 0px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 1px black;
+    display: flex;
+    justify-content: space-between;
+}

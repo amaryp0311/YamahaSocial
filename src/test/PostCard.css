@@ -1,0 +1,76 @@
+/* PostCard.css */
+
+.post-card {
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .post-card-header {
+    position: relative;
+  }
+  
+  .post-image {
+    width: 500px;
+    height: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .post-card-body {
+    padding: 15px;
+  }
+  
+  .post-info p {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .post-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .report-button,
+  .delete-button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #e0e0e0;
+    color: #333;
+    transition: background-color 0.2s;
+  }
+  
+  .report-button:hover {
+    background-color: #ccc;
+  }
+  
+  .delete-button:hover {
+    background-color: #ff5c5c;
+    color: #fff;
+  }
+  
+  .post-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .post-stats span {
+    margin-left: 8px;
+    color: #666;
+    font-size: 14px;
+  }
